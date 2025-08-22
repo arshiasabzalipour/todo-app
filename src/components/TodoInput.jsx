@@ -1,5 +1,11 @@
 export function TodoInput(){
     return(
-        <div></div>
+        <div className="input-container">
+            <input placeholder="Add a new task" />
+            <button className="fa-solid fa-plus">
+
+            </button>
+
+        </div>
     )
 }
