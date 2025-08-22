@@ -2,6 +2,7 @@ import {Header} from "./components/Header"
 import {Tabs} from "./components/Tabs"
 import {TodoList} from "./components/TodoList"
 import {TodoInput} from "./components/TodoInput"
+import {TodoCard} from "./components/TodoCard"
   
 
 function App() {
@@ -17,7 +18,8 @@ function App() {
       <Tabs todos={todos} />
       <TodoList todos={todos} />
       <TodoInput />
-    
+      <TodoCard />
+
     </>
   )
 }
