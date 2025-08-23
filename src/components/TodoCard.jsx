@@ -1,5 +1,5 @@
 export function TodoCard(props) {
-  const  todo  = props;
+  const todo = props;
   return (
     <div className="card todo-item">
       <p>{todo.input}</p>
